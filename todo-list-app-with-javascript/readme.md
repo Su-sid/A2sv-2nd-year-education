@@ -2,8 +2,8 @@
 
 An easy-to-use to-do list application built with vanilla JavaScript, HTML, and CSS.
 
-![Simple To-Do List App](assets\todo-list-app-no-task-page.jpg)
-![Simple To-Do List App](assets\todo-list-app-with-task-page.jpg)
+![Simple To-Do List App](assets/todo-list-app-no-task-page.jpg)
+![Simple To-Do List App](assets/todo-list-app-with-task-page.jpg)
 
 ## Features
 
