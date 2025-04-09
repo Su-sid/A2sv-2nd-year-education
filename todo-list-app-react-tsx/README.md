@@ -2,8 +2,8 @@
 
 An easy-to-use to-do list application built with React, TypeScript, and Vite.
 
-![Simple To-Do List App](assets/todo-list-app-no-task-page.jpg)
-![Simple To-Do List App](assets/todo-list-app-with-task-page.jpg)
+![Simple To-Do List App](public/todo-list-app-no-task-page.png)
+![Simple To-Do List App](public/todo-list-app-with-task-page.png)
 
 ## Features
 
