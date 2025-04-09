@@ -1,0 +1,19 @@
+.footer {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .taskCount {
+    font-weight: 600;
+    color: var(--primary);
+  }
+  
+  .clearAll {
+    margin-top: 10px;
+    background-color: transparent;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    padding: 8px 15px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }

@@ -1,0 +1,33 @@
+.taskList {
+    list-style-type: none;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 248, 177);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius);
+  }
+  
+  .taskCheckbox {
+    margin-right: 15px;
+  }
+  
+  .taskContent {
+    flex-grow: 1;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .editBtn,
+  .deleteBtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
