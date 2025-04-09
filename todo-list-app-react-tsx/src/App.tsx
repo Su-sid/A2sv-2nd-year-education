@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import { loadTasks, saveTasks } from "./utils/localStorage";
 import "./styles/global.css";
 
-interface TodoItem {
+export interface TodoItem {
   id: string;
   text: string;
   completed: boolean;
