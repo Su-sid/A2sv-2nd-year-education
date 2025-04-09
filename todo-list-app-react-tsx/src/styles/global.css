@@ -27,8 +27,10 @@ body {
 .container {
     width: 100%;
     max-width: 800px;
-    background-color: white;
+    background-color:var(--light);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     overflow: hidden;
 }
+
+

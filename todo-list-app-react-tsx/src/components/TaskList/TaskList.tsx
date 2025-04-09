@@ -21,6 +21,7 @@ const TaskList: React.FC<TaskListProps> = ({
   onEditTask,
 }) => {
   return (
+    <div className={styles.tasksContainer}>
     <ul className={styles.taskList}>
       {tasks.map((task) => (
         <li key={task.id} className={styles.taskItem}>
@@ -50,8 +51,10 @@ const TaskList: React.FC<TaskListProps> = ({
             &times;
           </button>
         </li>
+        
       ))}
     </ul>
+    </div>
   );
 };
 

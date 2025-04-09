@@ -17,6 +17,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onAddTask }) => {
   };
 
   return (
+    <div className= {styles.formContainer}>
     <form className={styles.taskForm} onSubmit={handleSubmit}>
       <input
         type="text"
@@ -30,6 +31,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onAddTask }) => {
         ➕ Add Task
       </button>
     </form>
+    </div>
   );
 };
 
