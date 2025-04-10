@@ -1,0 +1,22 @@
+
+.appHeader {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appMain {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.appFooter {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+}

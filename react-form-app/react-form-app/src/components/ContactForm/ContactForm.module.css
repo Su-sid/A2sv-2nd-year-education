@@ -1,0 +1,95 @@
+.contactFormContainer {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contactFormContainer h2 {
+  color: #4a90e2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: #333;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.formGroup input.error,
+.formGroup textarea.error {
+  border-color: #e74c3c;
+}
+
+.error {
+  border-color: #e74c3c !important;
+}
+
+.errorMessage {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.submitButton {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  align-self: flex-end;
+}
+
+.submitButton:hover {
+  background-color: #3a7bc8;
+}
+
+.submitButton:active {
+  transform: translateY(1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contactFormContainer {
+    padding: 1.5rem;
+  }
+
+  .submitButton {
+    align-self: center;
+    width: 100%;
+  }
+}

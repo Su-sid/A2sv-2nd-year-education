@@ -1,0 +1,62 @@
+/* Global CSS variables */
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f8f8f8;
+    --text-color: #333;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --border-color: #ddd;
+    --border-radius: 4px;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color:var(--light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    font-family: inherit;
+}
