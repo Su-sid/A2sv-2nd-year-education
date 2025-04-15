@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import Card from "./Card";
 import type { CardProps } from "./Card";
+// import type {JobPostingTypes} from "@/lib/types";
 
 export interface CardListProps {
   jobPostings: CardProps[];

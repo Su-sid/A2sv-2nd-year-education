@@ -1,25 +1,23 @@
 import Image from "next/image";
 
 import Link from "next/link";
+import type {JobPostingTypes} from "@/lib/types";
 
-export interface CardProps {
+interface CardTypes {
   id: number;
-  title: string;
-  description: string;
-  image: string;
-  company: string;
-  about: {
-    location: string;
-    categories: string[];
-  };
-}
 
-export default function Card(props: CardProps) {
+}
+// type intersection with JobPostingTypes
+// to get all the properties of JobPostingTypes
+export type CardProps = CardTypes & JobPostingTypes
+export default function Card(props: CardProps ) {
   const { title, description, image, company, about, id } = props;
 
+
   return (
-      <Link href={`/jobs/${id}`} className="block">
-    <div className="bg-white rounded-xl p-4 shadow-sm max-w-2xl">
+     
+    <div className="bg-white rounded-xl p-4 shadow-sm max-w-3xl">
+       <Link href={`/jobs/${id}`} className="block">
         {" "}
         <div className="flex">
           <div className="mr-4">
@@ -71,7 +69,7 @@ export default function Card(props: CardProps) {
             </div>
           </div>
         </div>
-    </div>
       </Link>
+    </div>
   );
 }
