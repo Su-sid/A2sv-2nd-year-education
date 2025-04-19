@@ -40,14 +40,13 @@ _Detailed view of a specific job posting showing comprehensive information inclu
 First, download the project from the link:
 
 ```bash
-https://github.com/Su-sid/A2sv-2nd-year-education/tree/main/job-listing-app
+https://github.com/Su-sid/A2sv-2nd-year-education/tree/main/job-listing-app-rtk-redux
 ```
 
 Install the dependencies:
 
 ```bash
 npm install
-
 ```
 
 Run the development server:
