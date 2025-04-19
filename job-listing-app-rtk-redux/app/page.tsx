@@ -11,9 +11,9 @@ export default function Home() {
       <div className="container mx-auto px-4 py-6">
         <div className="animate-pulse space-y-4">
           {[...Array(3)].map((_, index) => (
-            <div key={index} className="bg-gray-200 h-40 rounded-xl">
+            <div key={index} className="bg-gray-200 h-40 rounded-xl flex items-center justify-center">
               <h1 className="text-3xl font-bold mb-6">
-                Loading job opportunities...
+                Loading available opportunities...
               </h1>
             </div>
           ))}

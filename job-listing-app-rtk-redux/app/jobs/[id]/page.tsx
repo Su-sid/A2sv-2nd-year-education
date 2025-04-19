@@ -17,14 +17,11 @@ export default function JobPage({
       { skip: !id } // Skip the query if no ID is provided
     );
 
- 
   if (isLoading || isFetching) {
     return (
-      <div className="container mx-auto px-4 py-6">
-        <div className="animate-pulse space-y-4">
-          <div className="bg-gray-200 h-40 rounded-xl">
-            <h1 className="text-3xl font-bold mb-6">Loading job Details...</h1>
-          </div>
+      <div className="container mx-auto px-4 py-6 ">
+        <div className="animate-pulse space-y-4 bg-gray-200 h-100 rounded-xl flex justify-center items-center ">
+          <h1 className="text-3xl font-bold mb-6">Loading job Details...</h1>
         </div>
       </div>
     );
